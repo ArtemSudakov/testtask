@@ -1,0 +1,77 @@
+#auth_form {
+    width: 500px;
+    margin: 70px auto;
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 1px #cdcdcd;
+    padding: 15px;
+    text-align: left;
+}
+
+#auth_form input {
+    display: inline-block;
+    width: 95%;
+    padding: 3px 10px;
+    font-size: 18px;
+    border: 1px solid #cdcdcd;
+    background-color: #ffffff;
+    margin: 15px 0 15px 0;
+}
+
+#auth_form input:focus {
+    border: 1px solid #64cc64;
+}
+
+#auth_form #auth_in {
+    border: 1px solid #6f6f6f;
+    color: #6f6f6f;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 30%;
+    display: inline;
+}
+
+#auth_form #auth_in:hover {
+    background-color: #6f6f6f;
+    color: #ffffff;
+}
+
+.send_form {
+    width: 60%;
+    padding: 50px;
+    margin: 50px auto;
+    box-shadow: 0 0 15px 5px #cdcdcd;
+    border-radius: 5px;
+}
+
+.send_form input {
+    width: 50%;
+    margin: 15px 0;
+    padding: 5px 10px;
+}
+
+.send_form textarea {
+    width: 50%;
+    margin: 15px 0;
+    padding: 5px 10px;
+}
+
+#add_btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #ffffff;
+    background-color: #64cc64;
+    font-weight: bold;
+    text-align: center;
+}
+
+#add_btn:hover {
+    background-color: #2faf2f;
+}
+
